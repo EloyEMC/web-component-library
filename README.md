@@ -16,10 +16,14 @@ A collection of reusable and responsive UI components, including image carousels
 
 ## Installation
 
+
+
+
 Copy the HTML and CSS:
 
 - Copy the provided HTML and CSS code for the components you want to use.
 - Paste the HTML into the appropriate section of your target webpage.
 - Copy the CSS into your stylesheet or include it directly within your HTML file.
 
- https://github.com/EloyEMC/web-component-library/blob/main/Interactive-Image-Carrusel-Video.mp4
+
+https://github.com/user-attachments/assets/21fea4fc-acda-446f-a2ab-e645a5378bee
