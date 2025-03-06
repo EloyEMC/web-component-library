@@ -1,0 +1,32 @@
+<section>
+			<div class="overflow-hidden bg-transparent shadow-sm p-4">
+			  <div class="marquee-content flex gap-4 items-center animate-marquee">
+  				<div class="px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-700 text-white text-xl rounded-full flex-1 text-center">Breaking News</div>
+  				<div class="px-4 py-2 bg-gradient-to-r from-green-500 to-green-700 text-white text-xl rounded-full flex-1 text-center">Stock Update</div>
+  				<div class="px-4 py-2 bg-gradient-to-r from-cyan-500 to-cyan-700 text-white text-xl rounded-full flex-1 text-center">Weather Alert</div>
+  				<div class="px-4 py-2 bg-gradient-to-r from-yellow-500 to-yellow-700 text-black text-xl rounded-full flex-1 text-center">Sports Scores</div>
+  				<div class="px-4 py-2 bg-gradient-to-r from-red-500 to-red-700 text-white text-xl rounded-full flex-1 text-center">Traffic Report</div>
+  				<div class="px-4 py-2 bg-gradient-to-r from-purple-500 to-purple-700 text-white text-xl rounded-full flex-1 text-center">Tech Update</div>
+  				<div class="px-4 py-2 bg-gradient-to-r from-pink-500 to-pink-700 text-white text-xl rounded-full flex-1 text-center">Entertainment         </div>
+  				<div class="px-4 py-2 bg-gradient-to-r from-indigo-500 to-indigo-700 text-white text-xl rounded-full flex-1 text-center">Science News</div>
+  				<div class="px-4 py-2 bg-gradient-to-r from-teal-500 to-teal-700 text-white text-xl rounded-full flex-1 text-center">Health Tips</div>
+  				<div class="px-4 py-2 bg-gradient-to-r from-orange-500 to-orange-700 text-white text-xl rounded-full flex-1 text-center">Food & Dining</div>
+			  </div>
+			</div>
+</section>
+
+<style>
+.marquee-container:hover .marquee-content {
+  animation-play-state: paused;
+}
+
+ @keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-200%); }
+  }
+
+  .animate-marquee {
+    animation: marquee 40s linear infinite;
+  }
+  
+</style>
